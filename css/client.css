@@ -1,0 +1,48 @@
+.WrapALL_client{
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-style: solid;
+   border-color: #CCCCCC;
+     border-width: 1px;
+     height:350px;
+}
+#client_content{
+
+  padding-left:-100px;
+  #background-color: blue;
+  width:10%;
+  float:left;
+     margin: 60px 12px 12px 12px;
+
+
+
+}
+#client_dynamic{
+  #background-color: red;
+  width:80%;
+  float:left;
+  border-left:1px solid;
+
+  border-color: #CCCCCC;
+   margin: 40px 12px 12px 0px;
+   height:250px;
+
+}
+#client_text{
+padding-left:15px;
+padding-top:15px;
+}
+
+
+#client_content a { color: #000000; font-style: bold;}
+#client_content a:visited { color: #000000; }
+#client_content a:hover { color: #000000 }
+#client_content a:active { color: #000000 }
+
+.extra {
+    display: none;
+}
+
+#link1:hover .extra {
+    display: inline-block;
+}

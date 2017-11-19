@@ -1,0 +1,70 @@
+<html><head><title>DivisionBoost Application</title>
+<!-- JQUERY LIBRARY INCLUDED HERE -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<!-- SCRIPTS FOR FORM VALIDATION,PRICE CALCULATION AND IMAGE ROTATION-->
+<script type="text/javascript" src="Form_Validator.js"></script>
+<script type="text/javascript" src="formresetter.js"></script>
+<script type="text/javascript" src="pic_rotator.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.9.0/bootstrap-slider.js"></script>
+
+<!-- SCRIPTS FOR FORM VALIDATION,PRICE CALCULATION AND IMAGE ROTATION-->
+  <link href="css/divboostapp.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.9.0/css/bootstrap-slider.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+	$('#page_effect').fadeIn(700);
+
+});
+
+</script>
+<body onload="formresetter()">
+    <div id="page_effect" style="display:none;">
+<!-- THIS IS THE PART WHERE FORMS AND DESIGN ARE -->
+<!-- THIS IS THE PART WHERE FORMS AND DESIGN ARE -->
+<!-- THIS IS THE PART WHERE FORMS AND DESIGN ARE -->
+<!-- THIS IS THE PART WHERE FORMS AND DESIGN ARE -->
+
+<div class="left" id="w1_3">
+  <center><h3>Number of wins</h3><BR>
+    <BR>
+    <span id="valBox"><h9>10</h9></span><BR><BR>
+<input type="range" min="0" max="35" step="1"value="10"
+   oninput="showVal(this.value)" onchange="showVal(this.value)">
+</center>
+</div>
+<div class="left" id="w3">
+<h3>Your order:</h3>
+<ul>
+  <li>Division Boost: Silver (Division V) -> Silver (Division IV)</li>
+  <li><b>Total cost: <span id="valBox2">25$</span></b></li>
+</ul>
+<center><img src="img/visa.png" width="60" height="40"><img src="img/visa.png" width="60" height="40"><img src="img/visa.png" width="60" height="40"><img src="img/visa.png" width="60" height="40"></center>
+<hr>
+<b>Every account is VPN protected by our dedicated application</b><BR>
+  Contains full boost to 0LP desired league, no additional costs if we fail
+  promotion(we will play until we achieve it).
+  <BR>
+  Service available for North America, Europe West, Europe Nordic & East, Brazil, Latin America, Russia, Turkey, Oceania, Korea and Japan!
+
+</div>
+
+
+<script type="text/javascript">
+
+
+function showVal(newVal){
+  document.getElementById("valBox").innerHTML="<h9>"+newVal+"</h9>";
+  document.getElementById("valBox2").innerHTML=newVal;
+}
+
+
+
+</script>
+</div>
+</body></html>
