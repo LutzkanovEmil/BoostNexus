@@ -38,7 +38,7 @@
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="lib/animate-css/animate.min.css" rel="stylesheet">
     <link href="css/divboostapp.css" rel="stylesheet">
-    <link href="css/login.css" rel="stylesheet">
+
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
@@ -66,17 +66,18 @@
         <div class="hero-logo">&nbsp;</div>
         <h1>Please enter your credentials</h1>
 
-      <center>  <form>
+      <center>  <form action="login_process.php" method="POST">
         <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-        <input id="email" type="text" class="form-control" name="email" placeholder="Email" size="30">
+        <input id="username" type="text" class="form-control" name="username" placeholder="username" size="30">
         </div>
 <BR>
         <div class="input-group">
         <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
         <input id="password" type="password" class="form-control" name="password" placeholder="Password" size="30">
         </div>
-        <br>
+<div style="height:10px;"><br></div>
+        <input type="submit" id="submit_login" value="&nbsp;&nbsp;Login&nbsp;&nbsp;" class="btn-lg btn-info active">
 
       </form></center>
 
@@ -84,13 +85,12 @@
 
 
         <div class="actions">
-          <a href="client_logged.html" class="btn-get-started">Login</a>
-  <div id="goback"><h2><a href="index.html">BoostNexus.com</a></h2></div>
+
+  <div id="goback"><h2><a href="index.php">BoostNexus.com</a></h2></div>
         </div>
       </div>
     </div>
   </section>
-
 
 
 

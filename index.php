@@ -52,7 +52,7 @@
 </head>
 
 <body>
-    <div id="loginIndex"><h4><a href="login.html">LOGIN</a></h4></div>
+    <div id="loginIndex"><h4><a href="login.php">LOGIN</a></h4></div>
   <div id="preloader"></div>
 
 <!--==========================
@@ -97,7 +97,7 @@
           <li><a href="#Contactus"></a></li>
           <li><a href="#Contactus"></a></li>
           <li><a href="#Contactus"></a></li>
-         <li><a href="login.html">LOGIN</a></li>
+         <li><a href="login.php">LOGIN</a></li>
 
       </nav><!-- #nav-menu-container -->
     </div>

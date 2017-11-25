@@ -20,3 +20,11 @@
   top:45px;
   right:25px;
 }
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
